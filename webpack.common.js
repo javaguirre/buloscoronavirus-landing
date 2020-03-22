@@ -25,7 +25,6 @@ module.exports = {
             filename: '[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
-            favicon: "./src/favicon.ico",
             template: './src/index.html'
         }),
     ]
