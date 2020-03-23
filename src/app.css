@@ -28,3 +28,13 @@ body {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+
+.py-7 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
