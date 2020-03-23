@@ -1,3 +1,17 @@
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 :root {
     font-size: 18px;
 }
@@ -179,7 +193,17 @@ a:hover {
     padding-bottom: 6rem;
 }
 
+.animate {
+    animation: animate 1s ease-out;
+}
+
 @media (min-width: 768px) {
+    .py-md-6,.pt-md-6 {
+        padding-top: 6rem!important;
+    }
+    .py-md-6,.pb-md-6 {
+        padding-bottom: 6rem!important;
+    }
     .pl-md-6 {
         padding-left: 6rem!important;
     }
