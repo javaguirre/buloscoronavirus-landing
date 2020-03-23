@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.intro {
+    padding-right: 14rem;
+}
+
+.red {
+    color: #e80036;
+}
+
+.muted {
+    color: #888888;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.py-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
