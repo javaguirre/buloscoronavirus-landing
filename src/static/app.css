@@ -205,6 +205,57 @@ a:hover {
     animation: animate 1s ease-out;
 }
 
+
+#wa-link {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+@media (max-width: 991.98px) {
+    #wa-link  {
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #wa-link {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.7px;
+    }
+}
+
+#intro {
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+}
+
+@media (max-width: 991.98px) {
+    #intro {
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.9px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #intro {
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: -0.6px;
+    }
+}
+
+#info {
+    font-size: 1.25rem;
+}
+
 @media (min-width: 768px) {
     .py-md-6,.pt-md-6 {
         padding-top: 6rem!important;
